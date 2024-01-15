@@ -1,1 +1,177 @@
 /* место для вашего кода */
+
+.header {
+/*Вся шапка */
+display:grid;
+grid-template-columns: repeat(5,1fr);
+margin: 106px 26px 89px 26px;
+align-content: center;
+justify-content: center;
+
+}
+
+
+
+.header_menu{
+/*контейнер навигации */
+display: flex;
+grid-column-start: 1;
+grid-column-end: 3;
+;
+
+}
+
+
+.header_links-list {
+    /* список ссылок */
+    
+    display: flex;
+    width: 100%;
+    list-style-position: inside;
+    gap: 10px;
+    align-self: center;
+
+}
+
+
+
+.header_links-list-items {
+    /* список ссылок */
+
+}
+
+.header__links-list-item_no-bullit {
+    /* ссылку без кружочка перед ней */
+    list-style:none;
+}
+
+.header__link {
+    /*   пункт списка ссылок */
+       color: #000;
+       font-family: Raleway;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-transform: lowercase;
+       list-style:circle;   /* list-style-image: url(/); TODO: заменить дот на тот что в шаблоне */
+       width: auto;
+       
+   }
+
+.header__link_active {
+    /* активная ссылка*/
+    text-decoration:none;
+}
+
+
+.header_logo{
+    /*контейнер логотипа */
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+justify-self: center;
+align-self: center;
+
+ }
+
+.header_logo-image {
+width: 139px;
+    }
+
+
+.header_adress {
+    /*блок с адресом */
+display: flex;
+flex-direction: column;
+grid-column-start: 5;
+grid-column-end: 6;
+justify-content: center;
+
+
+}
+
+.address {
+justify-self: start;
+
+
+}
+
+.cover {
+    height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    
+}
+
+.overlay {
+
+
+}
+
+.cover_title {
+    position: relative;
+    top: 164px;
+}
+
+.aligned-text {
+    display: block;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+text-align: end;
+
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    z-index: 4;
+
+}
+
+.cover__description-text {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+     word-spacing: 18px;
+
+}
+
+.bet-button {
+background-color: transparent;
+width: 256px;
+height: 51px;
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+border: 1px solid #FFF;
+position: static;
+top: 65px;
+
+}
+

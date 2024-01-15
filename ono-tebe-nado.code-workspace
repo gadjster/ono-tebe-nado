@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Desktop/YaPr/VSC/Тестовый проект"
+		},
+		{
+			"path": "../Desktop/YaPr/VSC/Шаблоны/Шаблон проекта"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ono-tebe-nado"
+	}
+}

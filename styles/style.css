@@ -1,5 +1,19 @@
 /* место для вашего кода */
 
+.menu{
+    display: flex;
+}
+
+
+.contacts{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25px;
+    text-underline-offset:4px;
+}
+
 .header {
 /*Вся шапка */
     display:grid;
@@ -13,7 +27,6 @@
 
 .header__menu{
 /*контейнер навигации */
-    display: flex;
     grid-column-start: 1;
     grid-column-end: 3;
     margin-left: 31px;
@@ -74,17 +87,11 @@
 
 .header__adress {
     /*блок с адресом */
-    display: flex;
     flex-direction: column;
     grid-column-start: 5;
     grid-column-end: 6;
     justify-content: center;
     margin-left: -57px;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 25px;
-    text-underline-offset:4px;
 
 }
 
@@ -322,7 +329,7 @@
     justify-content: center;
     width: 240px;
     height: 240px;
-    margin-top: -79px;
+    margin-top: -169px;
     border-radius: 100%;
     background-color: #000;  
 }
@@ -341,12 +348,17 @@
 
 }
 
-.about__text p{
+.about__text-p{
     position: relative;
-    margin-top: 90px;
-    margin-bottom: 26px;
+    padding-top: 90px;
+    padding-bottom: 26px;
 }
 
+.about__text-p-second{
+
+    padding-top: 0px;
+
+}
 
 .about__title{
     padding-top: 278px;
@@ -365,26 +377,19 @@
     grid-template-columns: repeat(5,1fr);
     justify-content: center;
     align-content: center;
-    margin: 241px 49px 94px 50px;
+    margin: 152px 49px 94px 50px;
 }
 
-.footer_adress {
-    display: flex;
+.footer__adress {
     flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 3;
     justify-content: center;
     margin-left: 10pxx;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 25px;
-    text-underline-offset:4px;
 
 }
 
 .footer__menu{
-    display: flex;
     grid-column-start: 3;
     grid-column-end: 4;
     justify-self:center;

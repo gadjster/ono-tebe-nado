@@ -249,17 +249,17 @@
 
 
 
-.card__type_film {
+.card-type_film {
     background-image: url(/images/card-lot-01.jpg);
 
 
 }
-.card__type_book {
+.card-type_book {
     background-image: url(/images/card-lot-02.jpg);
 
 }
 
-.card__type_picture{
+.card-type_picture{
     background-image: url(/images/card-lot-03.jpg);
  
 }
@@ -385,7 +385,6 @@
     grid-column-start: 1;
     grid-column-end: 3;
     justify-content: center;
-    margin-left: 10pxx;
 
 }
 

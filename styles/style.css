@@ -105,7 +105,7 @@
     z-index: 0;
     width: 100%;
     min-height: 757px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(/Users/gadziibragimov/ono-tebe-nado/images/cover.jpg);
     background-repeat: no-repeat;
     background-position:  center;
     background-size: 125%;
@@ -250,17 +250,17 @@
 
 
 .card-type_film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(/Users/gadziibragimov/ono-tebe-nado/images/card-lot-01.jpg);
 
 
 }
 .card-type_book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(/Users/gadziibragimov/ono-tebe-nado/images/card-lot-02.jpg);
 
 }
 
 .card-type_picture{
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(/Users/gadziibragimov/ono-tebe-nado/images/card-lot-03.jpg);
  
 }
 
@@ -354,8 +354,7 @@
     padding-bottom: 26px;
 }
 
-.about__text-p-second{
-
+.about__text-p:nth-child(odd){
     padding-top: 0px;
 
 }
